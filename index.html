@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Study Timer</h1>
+
+        <div id="timer">00:00:00</div>
+        <div class="buttons">
+            <button onClick="start()">Start</button>
+            <button onClick="pause()">Pause</button>
+            <button onClick="reset()">Reset</button>
+            <button onClick="save()">Save</button>
+        </div>
+        <h2>History</h2>
+        <ul id="history"></ul>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
